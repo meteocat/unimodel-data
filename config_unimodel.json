@@ -1,0 +1,13 @@
+{"moloch_ecm": {"src_tar": "/data/meteo/isac/ISAC19/ECM/moloch-grib2.{year}{month}{day}{run}.1p6.tar.gz",
+                "src": "moloch-1p6.{year}{month}{day}{run}_{lt}.grib2",
+                "compressed": true},
+"arome": {"src": "/data/dades/AROME/WRFPRS-03.{year}{month}{day}{run}_0{lt}.grib",
+          "compressed": true},
+
+"nwp_dir": "/data/RECERCA/software_data/pme/nwp_stage/",
+"corner_ul": [-1.621137007661705, 43.4555890422600939],
+"grid_shape": [417, 620],
+"grid_res": [0.010642497622783, 0.010642497622783],
+"variable": "tp",
+"lead_times": 49,
+"netcdf_output":"/data/RECERCA/software_data/pme/nwp/"}
